@@ -1,0 +1,71 @@
+Project = Pro Project
+	-Working Folder (outputs)
+	-Resource Foldinger (read, not edited)
+		can add multiple folders
+Composer>Stretch
+-Stretch Current View: zoomed in area + enhance small differences in pixel value
+-Stretch Symmetrical: good for both negative & positive values that need to be balanced
+-Instant Stretch: good all purpose
+*Layer Properties>Save, to save the stretch
+
+Composer>Add Layer or Remove Layer
+Composer>Blend Icon to mesh 2+ layers (so cool!)
+Composer>Transparency Icon (all pixels w/ value of 0)
+Composer>"Save Composition to Map File"
+
+Identify Tool -> Pop-up(s) 
+
+Raster Group File
+->Easy to import multiple at once
+1.In Explorer > Select all files > Click Create>Raster Group > Rename the Group
+
+Group Link
+*All files need to be opened from same group (and have same .fileName)
+When all rasters are opened > Click Group Link (Linked Brushing)
+
+Zoom Full = "Full Extent Normal"
+
+Optimizng Rasters: TerrSet stores rasters as pyramids, which stores values of an image at several resolutions
+To Create:
+	1. In TerrSet Explorer > Right-click file name > Create Pyramid
+		*Can be done for Raster Group
+	2. File Symbol changes to triangle (from square)
+
+Measure Length (Ruler)
+
+Measure Zone: measures radius of circle & area w/i circle
+
+File-> Import/Export data files
+	Needs to be in Idrisi format!!
+Can also "Search" for import modules
+*GenericRaster
+*GDAL Conversion (for nearly any raster)
+	-Images importing using GDAL will not display automatically
+
+
+Importing Tips & Tricks
+1. In Metadata pane, can edit file metadata
+2. Display Parameters
+3. Post-Import Processing (reference system, extent, & resolution) should be same for rasters
+	Project Module (Raster & Vector) change coordinate systems
+	Window Module (Clip)
+	Resample (+Geometric Correction)
+	Mosaic Module - image mosaicking
+	Reclass Module - reclass pixels
+		Ex: Continuous Data -> Discrete-ish Categorical Data
+	Raster>Vector Module: converts rasters into vectors; requires blank vector file to be created & loaded
+		Vector>Raster too
+
+
+
+
+
+
+
+
+
+
+
+
+
+
