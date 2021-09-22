@@ -1,0 +1,12 @@
+Log file started on 9/22/2021 at 12:19:14 PM
+------------------------------------------
+
+GEOMOD  C:\Users\maris\Documents\GitHub\Land-Change-Modeling\Assignments\Assignment 3 - TOC Curves\assign3.gmd
+
+This log file contains the debugging information for the lastest geomod simulation, including the
+initial information of the regions, warning information in running, and meanwhile a suitability image
+has been automatically created by the module for the probably direct use in the future.
+
+#Rows = 512,   #Cols = 512
+
+DEBUGOUT <> 1 in order to save time

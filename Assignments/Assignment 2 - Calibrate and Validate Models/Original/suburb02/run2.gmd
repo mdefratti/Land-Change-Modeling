@@ -1,0 +1,30 @@
+***************************************************************
+* THIS FILE CONTAINS THE VALUES OF THE PARAMETERS REQUIRED    *
+* FOR THE GEOMOD MODULE, WHICH AUTOMATICALLY IS GENERATED IN  *
+* IDRISI. STRONGLY RECOMMEND REEDITING IN IDRISI IF NECESSARY.*
+***************************************************************
+
+TIME TO BEGIN GEOMOD, INCLUSIVE         :    1985
+TIME TO END GEOMOD, INCLUSIVE           :    1999
+TIME STEP IN TIME UNITS                 :    14
+
+# NEIGHBORS AWAY TO SEARCH,0=NO NIBBLE  :    0
+WRITE DEBUG OUTPUT TO LOG FILE,YES=1    :    0
+NAME OF STRATA/MASK IMAGE               :    towns01
+NAME OF INITIAL LANDUSE IMAGE           :    1985anderson02
+DO ENVIR. IMPACT ANALYSIS? 1=YES, 0=NO  :    0
+CMP/READ SUITABILITY SCORES(0=CP,1=RD)  :    0
+NUMBER OF RUNS ONCE                     :    1
+NUMBER OF PERMANENT DRIVER IMAGES       :    4
+DRIVER IMAGE 1                          :    elevation02
+DRIVER IMAGE 2                          :    geology01
+DRIVER IMAGE 3                          :    1971landuse21cats01
+DRIVER IMAGE 4                          :    protection01
+SET OF DRIVER WEIGHTS FOR EACH RUN THRU GEOMOD
+   DRIVER1   DRIVER2   DRIVER3   DRIVER4
+    0.2500    0.2500    0.2500    0.2500
+DO VALIDATION ANALYSIS? 1=YES, 0=NO     :    1
+NAME OF VALIDATION MAP                  :    1999anderson02
+
+# OF TIMES OF OUTPUT BESIDE END TIME    :    0
+NAME OF OUTPUT LANDUSE IMAGE            :    run2

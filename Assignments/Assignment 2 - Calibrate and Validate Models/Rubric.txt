@@ -1,0 +1,19 @@
+Rubric
+
+Run1
+-Driver Maps
+-Suitability maps
+-Built change maps 1985-1999
+	Legend categories: Built Gain, Persistence of Built, Persistence of Non-Built
+-All maps have North Arrow & Legend
+
+Run2
+-Driver Maps
+-Suitability maps
+-Built change maps 1985-1999
+	Legend categories: Built Gain, Persistence of Built, Persistence of Non-Built
+-All maps have North Arrow & Legend
+
+Geomod Suitability Calculation Discussion
+Describe validation assessment
+Powerpoint has slide numbers

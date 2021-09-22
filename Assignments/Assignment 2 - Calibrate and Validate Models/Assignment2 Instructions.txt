@@ -1,0 +1,45 @@
+Assignment
+
+Suburb20.zip
+Run Geomod 2x
+	Anderson02 @ 1985
+	Beginning LandUse - 1985
+	Ending LandUse - 1999
+	14 time step
+	Do not do environmental impact analysis
+
+Run 1
+Parameters: run1
+	Mask
+	Neighborhood search mode constrained by width 3x3
+	1 simulation
+	1 Driver w/ equal weights
+	Driver map elevation02
+	Extrapolation of gross built gain b/w 1971-1985 to determine simulated quantity 1999
+	Do not output interim time images
+	Use run1 as prefix
+
+Run2
+Parameters: run2
+	Town maps as strata
+	Neighborhood search mode unconstrained
+	1 simulation
+	4 drivers w/ equal weights
+		elevation02
+		geology
+		1971 landuse 21 categories
+		protection
+	Use Anderson02 @ 1999 as ending time LandUse validation to determine quantity by town
+	Do not output interim time images
+	Use run2 as a prefix
+
+For each run:
+	CROSSTAB to show simulated changes from 1985
+	Submit one PPTX file that has (for each run)
+		Driver Map(s)
+		Geomod Suitabilitly Map
+		CROSSTAB Output of simulated changes
+		+Paragraphs that describe:
+			how Geomod computed suitability values
+			Explain where the largest suitability values are for each run
+			Behavior of Geomod simulation & assessment of validation
