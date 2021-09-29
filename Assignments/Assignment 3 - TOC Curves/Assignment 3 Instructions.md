@@ -11,7 +11,7 @@ Ending time: 1999
 Time step: 14
 Neighborhood Search: Unconstrained
 No EI analysis
-Quantity: Reference gross gain 1985-1999
+Quantity: Reference gross gain 1985-1999: 3830
 No interim output
 Driver Map:
 	Run1: protection01
@@ -42,3 +42,11 @@ Feature Image: Gain of built (1985-1999)[Anderson02] + Suitability Map
 	Interpret shape of 3 TOC curves in terms of Protection Status & Landuse at 1971;
 	Explain what we learn from the slopes of the segments of the curve near the origin, compared to the slopes of the segments of the curve near the upper right corner;
 	Explain how the TOC curve for the 3rd simulations suitability map relates to the CROSSTAB map
+
+
+
+Explain TOC curve thresholds
+
+Explain slope segments
+
+3 - CROSS TAB map

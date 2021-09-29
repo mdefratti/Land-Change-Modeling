@@ -1,0 +1,39 @@
+Assignment4
+11:30 - Finish Analysis
+12:30 - Finish Explanation
+
+
+Land Change Modeler (LCM)
+Run1
+-Earlier: 1971anderson02
+-Later: 1985anderson02
+-Ignore transitions less than 1000 cells
+-Independent Var: elevation02
+-Markov Matrix (1971-1985)->1999
+*3-Way CROSSTAB Validation
+=>Transition potential: assign4a_transition_potential_from_1-to_2
+
+
+Run2
+-Earlier: 1971anderson02
+-Later: 1985anderson02
+-Ignore transitions less than 1000 cells
+-Independent Var: elevation02
+-Markov Matrix: 40% NB->B & 0% B->NB
+*3-Way CROSSTAB Validation
+
+R-TOC
+-Index: Transition Potential Map (Run1)
+-Boolean & Mask same as assignment3
+
+-Index: Transition Potential Map (Run2)
+-Boolean & Mask same as assignment3
+
+REGRESS
+Plot transition potential vs. elevation02
+
+-------------------Slides
+1. Title & Name
+2. Both CROSSTAB validations; describe how Markov Matrix relates to # of Misses, Hits, False Alarms
+3. TOC Curve; how it relates to the two CROSSTAB validation maps & transition potential maps
+4. Elevation02map + Transitiona Potential Map + REGRESS Plot -> What is the relationship amongst all 3?

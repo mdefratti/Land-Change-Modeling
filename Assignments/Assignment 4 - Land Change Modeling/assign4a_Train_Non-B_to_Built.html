@@ -1,0 +1,273 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<h2>Land Change Modeler MLP Model Results</h2>
+<p>(Created: 9/29/2021 10:41:52 AM)</p>
+</head>
+<br>
+<body>
+<h3>1. General Model Information</h3>
+<i><b>1) Input Files</b></i>
+<br>
+<table border="1">
+<SCRIPT LANGUAGE = "JavaScript">
+document.write("<tr>")
+  document.write("<td>Independent variable 1</td>")
+  document.write("<td>elevation02</td>")
+  document.write("</tr>")
+document.write("<tr>")
+  document.write("<td>Training site file</td>")
+  document.write("<td>assign4a_Train_Non-B_to_Built</td>")
+  document.write("</tr>")
+</SCRIPT>
+</table>
+<br>
+<i><b>2) Parameters and Performance</b></i>
+<br>
+<table border="1">
+<SCRIPT LANGUAGE = "JavaScript">
+document.write("<tr>")
+  document.write("<td>Input layer neurons</td>")
+  document.write("<td>1</td>")
+  document.write("</tr>")
+document.write("<tr>")
+  document.write("<td>Hidden layer neurons</td>")
+  document.write("<td>7</td>")
+  document.write("</tr>")
+document.write("<tr>")
+  document.write("<td>Output layer neurons</td>")
+  document.write("<td>2</td>")
+  document.write("</tr>")
+document.write("<tr>")
+  document.write("<td>Requested samples per class</td>")
+  document.write("<td>3166</td>")
+  document.write("</tr>")
+document.write("<tr>")
+  document.write("<td>Final learning rate</td>")
+  document.write("<td>  0.0010</td>")
+  document.write("</tr>")
+document.write("<tr>")
+  document.write("<td>Momentum factor</td>")
+  document.write("<td>0.5</td>")
+  document.write("</tr>")
+document.write("<tr>")
+  document.write("<td>Sigmoid constant</td>")
+  document.write("<td>1</td>")
+  document.write("</tr>")
+document.write("<tr>")
+  document.write("<td>Acceptable RMS</td>")
+  document.write("<td>0.01</td>")
+  document.write("</tr>")
+document.write("<tr>")
+  document.write("<td>Iterations</td>")
+  document.write("<td>10000</td>")
+  document.write("</tr>")
+document.write("<tr>")
+  document.write("<td>Training RMS</td>")
+  document.write("<td>  0.4883</td>")
+  document.write("</tr>")
+document.write("<tr>")
+  document.write("<td>Testing RMS</td>")
+  document.write("<td>  0.4877</td>")
+  document.write("</tr>")
+document.write("<tr>")
+  document.write("<td>Accuracy rate</td>")
+  document.write("<td> 55.97%</td>")
+  document.write("</tr>")
+document.write("<tr>")
+  document.write("<td>Skill measure</td>")
+  document.write("<td>  0.1193</td>")
+  document.write("</tr>")
+</SCRIPT>
+</table>
+<br>
+<i><b>3) Model Skill Breakdown by Transition & Persistence</b></i>
+<br>
+<table border="1">
+<SCRIPT LANGUAGE = "JavaScript">
+document.write("<tr>")
+  document.write("<td>Class</td>")
+  document.write("<td>Skill measure</td>")
+  document.write("</tr>")
+document.write("<tr>")
+  document.write("<td>Transition : Non-Built to Built</td>")
+  document.write("<td>  0.5831</td>")
+  document.write("</tr>")
+document.write("<tr>")
+  document.write("<td>Persistence : Non-Built </td>")
+  document.write("<td> -0.3513</td>")
+  document.write("</tr>")
+</SCRIPT>
+</table>
+<br>
+<br>
+<h3>2. Weights Information of Neurons across Layers</h3>
+<i><b>1) Weights between Input Layer Neurons and Hidden Layer Neurons</b></i>
+<table border="1">
+<SCRIPT LANGUAGE="JavaScript">
+document.write("<tr>")
+  document.write("<td>Neuron</td>")
+  document.write("<td>h-Neuron 1</td>")
+  document.write("<td>h-Neuron 2</td>")
+  document.write("<td>h-Neuron 3</td>")
+  document.write("<td>h-Neuron 4</td>")
+  document.write("<td>h-Neuron 5</td>")
+  document.write("<td>h-Neuron 6</td>")
+  document.write("<td>h-Neuron 7</td>")
+  document.write("</tr>")
+
+document.write("<tr>")
+  document.write("<td>i-Neuron 1</td>")
+  document.write("<td>-12.5989</td>")
+  document.write("<td> -5.7934</td>")
+  document.write("<td>-13.1850</td>")
+  document.write("<td>-13.1767</td>")
+  document.write("<td> -3.7164</td>")
+  document.write("<td> -6.0323</td>")
+  document.write("<td> -6.0391</td>")
+  document.write("</tr>")
+
+</SCRIPT>
+</table>
+<br>
+<i><b>2) Weights between Hidden Layer Neurons and Output Layer Neurons</b></i>
+<table border="1">
+<SCRIPT LANGUAGE="JavaScript">
+document.write("<tr>")
+  document.write("<td>Neuron</td>")
+  document.write("<td>o-Neuron 1</td>")
+  document.write("<td>o-Neuron 2</td>")
+  document.write("</tr>")
+
+document.write("<tr>")
+  document.write("<td>h-Neuron 1</td>")
+  document.write("<td> -6.0098</td>")
+  document.write("<td>  6.0019</td>")
+  document.write("</tr>")
+
+document.write("<tr>")
+  document.write("<td>h-Neuron 2</td>")
+  document.write("<td>  0.8730</td>")
+  document.write("<td> -0.8874</td>")
+  document.write("</tr>")
+
+document.write("<tr>")
+  document.write("<td>h-Neuron 3</td>")
+  document.write("<td> -7.6469</td>")
+  document.write("<td>  7.6772</td>")
+  document.write("</tr>")
+
+document.write("<tr>")
+  document.write("<td>h-Neuron 4</td>")
+  document.write("<td> -7.5545</td>")
+  document.write("<td>  7.7156</td>")
+  document.write("</tr>")
+
+document.write("<tr>")
+  document.write("<td>h-Neuron 5</td>")
+  document.write("<td> -0.6375</td>")
+  document.write("<td>  0.7264</td>")
+  document.write("</tr>")
+
+document.write("<tr>")
+  document.write("<td>h-Neuron 6</td>")
+  document.write("<td>  2.7689</td>")
+  document.write("<td> -2.7932</td>")
+  document.write("</tr>")
+
+document.write("<tr>")
+  document.write("<td>h-Neuron 7</td>")
+  document.write("<td>  2.3654</td>")
+  document.write("<td> -2.5089</td>")
+  document.write("</tr>")
+
+</SCRIPT>
+</table>
+<br>
+<br>
+<h3>3. Sensitivity of Model to Forcing Independent Variables to be Constant</h3>
+<i><b>1) Forcing a Single Independent Variable to be Constant</b></i>
+<br>
+<table border="1">
+<SCRIPT LANGUAGE="JavaScript">
+document.write("<tr>")
+  document.write("<td>Model</td>")
+  document.write("<td>Accuracy (%)</td>")
+  document.write("<td>Skill measure</td>")
+  document.write("<td>Influence order</td>")
+  document.write("</tr>")
+
+document.write("<tr>")
+  document.write("<td>With all variables</td>")
+  document.write("<td> 55.97</td>")
+  document.write("<td>  0.1193</td>")
+  document.write("<td>N/A</td>")
+  document.write("</tr>")
+
+document.write("<tr>")
+  document.write("<td>Var. 1 constant</td>")
+  document.write("<td> 50.37</td>")
+  document.write("<td>  0.0073</td>")
+  document.write("<td>1 (most influential)</td>")
+  document.write("</tr>")
+
+</SCRIPT>
+</table>
+<br>
+<img src="~Chart_$5735033.id$">
+<br>
+<br>
+<i><b>2) Forcing All Independent Variables Except One to be Constant</b></i>
+<br>
+<table border="1">
+<SCRIPT LANGUAGE="JavaScript">
+document.write("<tr>")
+  document.write("<td>Model</td>")
+  document.write("<td>Accuracy (%)</td>")
+  document.write("<td>Skill measure</td>")
+  document.write("</tr>")
+
+document.write("<tr>")
+  document.write("<td>With all variables</td>")
+  document.write("<td> 55.97</td>")
+  document.write("<td>  0.1193</td>")
+  document.write("</tr>")
+
+document.write("<tr>")
+  document.write("<td>All constant but var. 1</td>")
+  document.write("<td> 55.97</td>")
+  document.write("<td>  0.1193</td>")
+  document.write("</tr>")
+
+</SCRIPT>
+</table>
+<br>
+<img src="~Chart_$73550788.id$">
+<br>
+<br>
+<i><b>3) Backwards Stepwise Constant Forcing</b></i>
+<br>
+<table border="1">
+<SCRIPT LANGUAGE="JavaScript">
+document.write("<tr>")
+  document.write("<td>Model</td>")
+  document.write("<td>Variables included</td>")
+  document.write("<td>Accuracy (%)</td>")
+  document.write("<td>Skill measure</td>")
+  document.write("</tr>")
+
+document.write("<tr>")
+  document.write("<td>With all variables</td>")
+  document.write("<td>All variables</td>")
+  document.write("<td> 55.97</td>")
+  document.write("<td>  0.1193</td>")
+  document.write("</tr>")
+
+</SCRIPT>
+</table>
+<br>
+<img src="~Chart_$82281762.id$">
+<br>
+</body>
+</html>

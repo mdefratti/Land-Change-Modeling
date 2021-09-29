@@ -1,0 +1,31 @@
+file format : IDRISI Raster A.1
+file title  : Cross-Classification : 1999anderson02 | 1985anderson02
+data type   : integer
+file type   : binary
+columns     : 512
+rows        : 512
+ref. system : spc83ma1
+ref. units  : m
+unit dist.  : 1.0000000
+min. X      : 242160.0000000
+max. X      : 257520.0000000
+min. Y      : 923060.0000000
+max. Y      : 938420.0000000
+pos'n error : unknown
+resolution  : 30.0000000
+min. value  : 1
+max. value  : 5
+display min : 0
+display max : 5
+value units : crossclassification categories
+value error : unknown
+flag value  : 0
+flag def'n  : background
+legend cats : 5
+code      1 :  0 |  0
+code      2 :  1 |  1
+code      3 :  2 |  1
+code      4 :  1 |  2
+code      5 :  2 |  2
+lineage     : This file was created by CROSSTAB with the command line: 
+lineage     : 1*C:\Users\maris\Documents\GitHub\Land-Change-Modeling\Assignments\Assignment 3 - TOC Curves\suburb02\1999anderson02.rst*C:\Users\maris\Documents\GitHub\Land-Change-Modeling\Assignments\Assignment 3 - TOC Curves\suburb02\1985anderson02.rst*NONE*NONE*1*C:\Users\maris\Documents\GitHub\Land-Change-Modeling\Assignments\Assignment 3 - TOC Curves\cross01.rst

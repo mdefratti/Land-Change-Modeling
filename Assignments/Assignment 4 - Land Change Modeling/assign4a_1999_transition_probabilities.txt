@@ -1,0 +1,6 @@
+Given :    Probability of changing to :
+
+           Cl. 1  Cl. 2 
+
+Class 1  : 0.6000 0.4000 
+Class 2  : 0.0000 1.0000 

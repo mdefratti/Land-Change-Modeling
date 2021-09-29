@@ -1,0 +1,6 @@
+Cells in :     Expected to transition to :
+
+                Cl. 1      Cl. 2    
+
+Class 1   :       45430      30287
+Class 2   :           0      27473
