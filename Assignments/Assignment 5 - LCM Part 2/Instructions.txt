@@ -1,0 +1,59 @@
+Assignment5
+
+How LCM converts independent variables into a transition potential map?
+How LCM uses soft prediction map to extrapolate change as a hard prediction?
+*ForestOtherBuilt2.zip
+
+LCM - 3 Runs
+Earlier: 1971Built1
+Later: 1985Built1
+
+Simulate single transition from Non-Built>Built
+->Map:Distance from 1971BuiltPixels
+	IndVar = Distance from 1971Built
+	IndVar = Elevation01
+Prediction date 2085
+	Markov Matrix
+		1985-40%NB --> 2085Built
+		1985Built100%-->2085Built
+Recalculation stages: 2
+Show Intermediate stage images
+Create soft prediction
+Do not create video
+
+CROSSTAB
+1985Built1 + hard prediction stage1 + hard prediction @ 2085 + Mask01 => Pattern of hard prediction across two stages: 1985-2035 & 2035-2085
+
+
+
+Run A: Logistic Regression w/o sampling & w/o zoning
+Run B: Weighted Normalized Likelihood (WNL) w/o zoning
+Run C: WNL w/ zoning (prevents simulated change in the protected areas as entered in the Planning tab)
+
+-----------------
+Slide1 - Title
+Slide2 - 5 input maps (earlier image, later image, independent variable of distance, independent variable of elevation, Boolean protection map)
+Slide3 - Analyze RunA
+Slide4 - Analyzes RunB
+Slide5 - Analyze RunC
+^All show:
+	Soft output map
+	CROSSTAB of hard prediction of gain of Built through two stages
+	REGRESS scatter plot
+		IV: Distance from 1971 Built
+		DV: Soft prediction map
+		Mask: only NB @ 1985
+	Explain: # pixels of gain during each stage & why;
+		How LCM uses transition potential map
+		Average transition potential for each soft prediction map
+		Does a large avg. transition potential = >risk of larger quantity of post-1985 gain of built
+
+
+RunA CROSSTAB Table
+1|1|1 Persistence of NB
+1|1|2 Gain of B stage 2
+1|2|2 Gain of B stage 1
+2|2|2 Persistence of B
+
+TP: distance to 1971built; elevation (non-linear affects)
+TP guides spatial allocation to dictate gain of built; LCM determines quantity of pixels from the Markov Matrix

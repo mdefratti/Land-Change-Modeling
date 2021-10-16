@@ -1,0 +1,87 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>WNL Output Statistics</title>
+<style type="text/css">
+BODY { margin: 5em }
+table,th,td
+{
+border:1px solid gray;
+border-collapse:collapse;
+padding: 0.25em 1em;
+text-align:right;
+}
+tr.fitTable
+{
+border: 1px solid gray;
+text-align:center;
+vertical-align:middle;
+}
+td.fitWide{width:100px;}
+.clsCaption {width:310px; text-align:left;}
+.clsStat {width:120px; text-align: left;}
+.Center{text-align: center;}
+.left{text-align: left;}
+.no_borders {border: none}
+</style>
+</head>
+<body>
+<h1>WNL Output Statistics</h1>
+<br>Transition Count  : 1</br>
+<br>Time used   : 0 seconds </br>
+<h2>1. Summary statistics for each transition</h2>
+<br>Average Skill  : 0.209</br>
+<br>Average Accuracy   : 0.605</br>
+</br>
+<table> 
+<tr>
+<td>Transition  </td>
+<td>Accuracy  </td>
+<td>Accuracy for Change  </td>
+<td>Accuracy for Persistence  </td>
+<td>Skill  </td>
+<td>Skill for change  </td>
+<td>Skill for persistence  </td>
+<td>Total changed   </td>
+<td>Total persisted   </td>
+<td>Training changed   </td>
+<td>Training persisted   </td>
+<td>Testing changed   </td>
+<td>Testing persisted   </td>
+<td>Log coefficient   </td>
+</tr>
+<tr> <td>from Non-Built to Built</td>
+<td>0.605</td>
+<td>0.595</td>
+<td>0.614</td>
+<td>0.209</td>
+<td>0.190</td>
+<td>0.228</td>
+<td>3022</td>
+<td>80911</td>
+<td>1503</td>
+<td>1500</td>
+<td>1519</td>
+<td>1556</td>
+<td>6.000</td>
+</tr>
+</table>
+<h2>2. Variable importance</h2>
+<h3> Transition from Non-Built to Built</h3>
+<table> 
+<tr>
+<td> Variable </td>
+<td> Relative Weight </td>
+</tr>
+<tr>
+<td>elevation02</td>
+<td> least important : 0.09 </td>
+</tr>
+<tr>
+<td>1971ForestOtherBuilt1_Class_3distance</td>
+<td> most important : 0.11 </td>
+</tr>
+</table>
+</body>
+</html>

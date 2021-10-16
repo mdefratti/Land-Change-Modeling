@@ -1,0 +1,33 @@
+file format : IDRISI Raster A.1
+file title  : WNL of transition from Non-Built to Built
+data type   : real
+file type   : binary
+columns     : 512
+rows        : 512
+ref. system : spc83ma1
+ref. units  : m
+unit dist.  : 1.0000000
+min. X      : 242160.0000000
+max. X      : 257520.0000000
+min. Y      : 923060.0000000
+max. Y      : 938420.0000000
+pos'n error : unknown
+resolution  : 30.0000000
+min. value  : 0.0000000
+max. value  : 0.5720127
+display min : 0.0000000
+display max : 0.5720127
+value units : unspecified
+value error : unknown
+flag value  : 0.0000000
+flag def'n  : background
+legend cats : 0
+lineage     : This file was created by the STRETCH module with the command line: 
+lineage     : C:\Users\maris\Documents\GitHub\Land-Change-Modeling\Assignments\Assignment 5 - LCM Part 2\ForestOtherBuilt2\elevation02.rst*C:\Users\maris\Documents\GitHub\Land-Change-Modeling\Assignments\Assignment 5 - LCM Part 2\binned_200_elevation02.rst*3*1*1*Y*0*0*0*199
+lineage     : Smoothing Option 5 Filter Stages 3
+lineage     : This file was created by the CONVERT module with the command line: 
+lineage     : 1*C:\Users\maris\Documents\GitHub\Land-Change-Modeling\Assignments\Assignment 5 - LCM Part 2\assign5_transition_potential_from_1_to_2.rst*C:\Users\maris\Documents\GitHub\Land-Change-Modeling\Assignments\Assignment 5 - LCM Part 2\assign5bb_soft_modeled.rst*2*2*2
+comment     : saturation minimum : 10
+comment     : saturation maximum : 65
+comment     : ScaleType=quantitative
+comment     : ScaleType=quantitative

@@ -1,0 +1,27 @@
+file format : IDRISI Raster A.1
+file title  : 
+data type   : real
+file type   : binary
+columns     : 512
+rows        : 512
+ref. system : spc83ma1
+ref. units  : m
+unit dist.  : 1.0000000
+min. X      : 242160.0000000
+max. X      : 257520.0000000
+min. Y      : 923060.0000000
+max. Y      : 938420.0000000
+pos'n error : unknown
+resolution  : unknown
+min. value  : 0.0000000
+max. value  : 6266.6259766
+display min : 0.0000000
+display max : 6266.6259766
+value units : unspecified
+value error : unknown
+flag value  : none
+flag def'n  : na
+legend cats : 0
+lineage     : This file was created by the DISTANCE module with the command line: 
+lineage     : C:\Users\maris\Documents\GitHub\Land-Change-Modeling\Assignments\Assignment 5 - LCM Part 2\1971ForestOtherBuilt1_Class_3.rst*C:\Users\maris\Documents\GitHub\Land-Change-Modeling\Assignments\Assignment 5 - LCM Part 2\1971ForestOtherBuilt1_Class_3distance.rst
+comment     : ScaleType=quantitative

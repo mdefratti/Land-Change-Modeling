@@ -1,0 +1,10 @@
+C:\Users\maris\Documents\GitHub\Land-Change-Modeling\Assignments\Assignment 5 - LCM Part 2\ForestOtherBuilt2\1971Built1.rst
+C:\Users\maris\Documents\GitHub\Land-Change-Modeling\Assignments\Assignment 5 - LCM Part 2\ForestOtherBuilt2\1985Built1.rst
+C:\Users\maris\Documents\GitHub\Land-Change-Modeling\Assignments\Assignment 5 - LCM Part 2\assign5_bin200_variables_for_submodels_wnl.rgf
+1
+2
+C:\Users\maris\Documents\GitHub\Land-Change-Modeling\Assignments\Assignment 5 - LCM Part 2\assign5
+5
+3
+6
+0,0

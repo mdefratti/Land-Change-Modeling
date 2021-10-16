@@ -1,0 +1,1249 @@
+{
+  "tableName": "table42",
+  "fields": [
+  {
+    "name": "variableName",
+	"type": "esriFieldTypeString"
+  },
+  {
+    "name": "fileName",
+	"type": "esriFieldTypeString"
+  },
+  {
+    "name": "weight",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "sat_min",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "sat_max",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "binNo",
+	"type": "esriFieldTypeInteger"
+  },
+  {
+    "name": "bin_0",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_1",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_2",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_3",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_4",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_5",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_6",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_7",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_8",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_9",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_10",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_11",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_12",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_13",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_14",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_15",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_16",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_17",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_18",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_19",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_20",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_21",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_22",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_23",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_24",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_25",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_26",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_27",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_28",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_29",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_30",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_31",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_32",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_33",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_34",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_35",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_36",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_37",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_38",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_39",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_40",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_41",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_42",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_43",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_44",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_45",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_46",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_47",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_48",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_49",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_50",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_51",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_52",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_53",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_54",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_55",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_56",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_57",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_58",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_59",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_60",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_61",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_62",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_63",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_64",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_65",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_66",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_67",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_68",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_69",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_70",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_71",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_72",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_73",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_74",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_75",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_76",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_77",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_78",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_79",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_80",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_81",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_82",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_83",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_84",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_85",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_86",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_87",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_88",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_89",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_90",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_91",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_92",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_93",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_94",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_95",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_96",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_97",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_98",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_99",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_100",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_101",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_102",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_103",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_104",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_105",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_106",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_107",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_108",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_109",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_110",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_111",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_112",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_113",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_114",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_115",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_116",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_117",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_118",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_119",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_120",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_121",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_122",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_123",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_124",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_125",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_126",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_127",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_128",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_129",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_130",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_131",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_132",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_133",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_134",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_135",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_136",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_137",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_138",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_139",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_140",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_141",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_142",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_143",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_144",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_145",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_146",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_147",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_148",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_149",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_150",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_151",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_152",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_153",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_154",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_155",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_156",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_157",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_158",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_159",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_160",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_161",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_162",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_163",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_164",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_165",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_166",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_167",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_168",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_169",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_170",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_171",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_172",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_173",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_174",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_175",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_176",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_177",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_178",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_179",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_180",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_181",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_182",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_183",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_184",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_185",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_186",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_187",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_188",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_189",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_190",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_191",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_192",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_193",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_194",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_195",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_196",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_197",
+	"type": "esriFieldTypeDouble"
+  },
+  {
+    "name": "bin_198",
+	"type": "esriFieldTypeDouble"
+  }
+  {
+    "name": "bin_199",
+	"type": "esriFieldTypeDouble"
+  }
+  ],
+  "features": [
+  {
+	"attributes": {
+	  "variableName": "binned_200_elevation02",
+	  "fileName": "binned_200_elevation02.rst",
+	  "sat_min": "10",
+	  "sat_max": "65",
+	  "binNo": "200",
+	  "bin_0": "0",
+	  "bin_1": "0.167866610294406",
+	  "bin_2": "0.244049432003271",
+	  "bin_3": "0.320797981688257",
+	  "bin_4": "0.351632831146827",
+	  "bin_5": "0.363748263677315",
+	  "bin_6": "0.368338562578051",
+	  "bin_7": "0.371236094305693",
+	  "bin_8": "0.369676330840019",
+	  "bin_9": "0.376737573700311",
+	  "bin_10": "0.39241982288657",
+	  "bin_11": "0.404723078398796",
+	  "bin_12": "0.41542869288735",
+	  "bin_13": "0.429578800097883",
+	  "bin_14": "0.438095098511112",
+	  "bin_15": "0.43971083385634",
+	  "bin_16": "0.438426006133567",
+	  "bin_17": "0.440148007706726",
+	  "bin_18": "0.439834704830165",
+	  "bin_19": "0.439402125762118",
+	  "bin_20": "0.442650533314673",
+	  "bin_21": "0.449579927487832",
+	  "bin_22": "0.454282915917662",
+	  "bin_23": "0.45839883105748",
+	  "bin_24": "0.465257889651866",
+	  "bin_25": "0.471059828888731",
+	  "bin_26": "0.476083500744017",
+	  "bin_27": "0.482298036005701",
+	  "bin_28": "0.489827571059486",
+	  "bin_29": "0.495341889160793",
+	  "bin_30": "0.500169323355292",
+	  "bin_31": "0.50347331771516",
+	  "bin_32": "0.505253872240395",
+	  "bin_33": "0.505142869165556",
+	  "bin_34": "0.504250380738838",
+	  "bin_35": "0.502391670635314",
+	  "bin_36": "0.500403294782808",
+	  "bin_37": "0.498425147096539",
+	  "bin_38": "0.497230550510954",
+	  "bin_39": "0.496819505026053",
+	  "bin_40": "0.497376746966762",
+	  "bin_41": "0.498729020284389",
+	  "bin_42": "0.500456643233279",
+	  "bin_43": "0.501827671674218",
+	  "bin_44": "0.502753005114094",
+	  "bin_45": "0.503171064777931",
+	  "bin_46": "0.502765062883983",
+	  "bin_47": "0.501954681177904",
+	  "bin_48": "0.501358318796329",
+	  "bin_49": "0.501243277218597",
+	  "bin_50": "0.501609556444708",
+	  "bin_51": "0.502773944256409",
+	  "bin_52": "0.504763986474734",
+	  "bin_53": "0.506456429828996",
+	  "bin_54": "0.507583972839854",
+	  "bin_55": "0.50910635409991",
+	  "bin_56": "0.510917977681914",
+	  "bin_57": "0.512516524377109",
+	  "bin_58": "0.515025247456184",
+	  "bin_59": "0.519410800506448",
+	  "bin_60": "0.522793967750098",
+	  "bin_61": "0.525174749187134",
+	  "bin_62": "0.527055464026314",
+	  "bin_63": "0.528898210204228",
+	  "bin_64": "0.528070328438282",
+	  "bin_65": "0.527451034506279",
+	  "bin_66": "0.528179514703724",
+	  "bin_67": "0.530088329294364",
+	  "bin_68": "0.530667931197741",
+	  "bin_69": "0.532550979696449",
+	  "bin_70": "0.536084512675772",
+	  "bin_71": "0.5378509712492",
+	  "bin_72": "0.537850355416733",
+	  "bin_73": "0.539159725818634",
+	  "bin_74": "0.540901529360707",
+	  "bin_75": "0.539155436609293",
+	  "bin_76": "0.537339006450904",
+	  "bin_77": "0.535695171442645",
+	  "bin_78": "0.531684875211613",
+	  "bin_79": "0.525308117757809",
+	  "bin_80": "0.520485228514888",
+	  "bin_81": "0.517978691740868",
+	  "bin_82": "0.517059709764428",
+	  "bin_83": "0.519430823264984",
+	  "bin_84": "0.525488075803333",
+	  "bin_85": "0.533924690901589",
+	  "bin_86": "0.539035656899193",
+	  "bin_87": "0.541549771467466",
+	  "bin_88": "0.542591156375396",
+	  "bin_89": "0.540971680940597",
+	  "bin_90": "0.536691345163068",
+	  "bin_91": "0.535455160703368",
+	  "bin_92": "0.539184036577004",
+	  "bin_93": "0.542803066797594",
+	  "bin_94": "0.547500382047525",
+	  "bin_95": "0.553183099495912",
+	  "bin_96": "0.557949548589235",
+	  "bin_97": "0.555308204609658",
+	  "bin_98": "0.55033397354356",
+	  "bin_99": "0.543367692890024",
+	  "bin_100": "0.534688011141702",
+	  "bin_101": "0.524294928298593",
+	  "bin_102": "0.518679969078535",
+	  "bin_103": "0.516147502148739",
+	  "bin_104": "0.514486884329573",
+	  "bin_105": "0.513419467128386",
+	  "bin_106": "0.513248970188583",
+	  "bin_107": "0.511811551937551",
+	  "bin_108": "0.50911920038728",
+	  "bin_109": "0.5073825587174",
+	  "bin_110": "0.505091154456218",
+	  "bin_111": "0.501333828673517",
+	  "bin_112": "0.496110581369297",
+	  "bin_113": "0.488516737815334",
+	  "bin_114": "0.47781541695175",
+	  "bin_115": "0.468816684686276",
+	  "bin_116": "0.462431699949128",
+	  "bin_117": "0.458389818094596",
+	  "bin_118": "0.459373095275384",
+	  "bin_119": "0.46538153149149",
+	  "bin_120": "0.471605060835186",
+	  "bin_121": "0.478402744678887",
+	  "bin_122": "0.486586516959725",
+	  "bin_123": "0.493478317528993",
+	  "bin_124": "0.497601009836708",
+	  "bin_125": "0.500557949185445",
+	  "bin_126": "0.500360792527745",
+	  "bin_127": "0.496197605926473",
+	  "bin_128": "0.48618976600725",
+	  "bin_129": "0.474768682420027",
+	  "bin_130": "0.461934355164806",
+	  "bin_131": "0.449675127289046",
+	  "bin_132": "0.437686300972705",
+	  "bin_133": "0.434281806487632",
+	  "bin_134": "0.435030234183872",
+	  "bin_135": "0.439927588057431",
+	  "bin_136": "0.448311087092488",
+	  "bin_137": "0.461906758686304",
+	  "bin_138": "0.47240067256703",
+	  "bin_139": "0.47993308113019",
+	  "bin_140": "0.484515972387773",
+	  "bin_141": "0.486149346339777",
+	  "bin_142": "0.483107175588944",
+	  "bin_143": "0.478464489869295",
+	  "bin_144": "0.476231941644212",
+	  "bin_145": "0.476397542901707",
+	  "bin_146": "0.477357938339204",
+	  "bin_147": "0.479688470422455",
+	  "bin_148": "0.482477980221244",
+	  "bin_149": "0.481715815272187",
+	  "bin_150": "0.477401975575286",
+	  "bin_151": "0.474346527038267",
+	  "bin_152": "0.472549469661133",
+	  "bin_153": "0.470765280346452",
+	  "bin_154": "0.470330843248683",
+	  "bin_155": "0.471258146379815",
+	  "bin_156": "0.46873712383212",
+	  "bin_157": "0.460764780098856",
+	  "bin_158": "0.453507441619568",
+	  "bin_159": "0.446965108394255",
+	  "bin_160": "0.441125792410929",
+	  "bin_161": "0.436665989722013",
+	  "bin_162": "0.439594686847727",
+	  "bin_163": "0.443441837705122",
+	  "bin_164": "0.4482034462902",
+	  "bin_165": "0.453883508606959",
+	  "bin_166": "0.463262602405859",
+	  "bin_167": "0.470331741166681",
+	  "bin_168": "0.473247606917074",
+	  "bin_169": "0.472022187669027",
+	  "bin_170": "0.466655483422539",
+	  "bin_171": "0.45436691642715",
+	  "bin_172": "0.435822598035138",
+	  "bin_173": "0.423022528246504",
+	  "bin_174": "0.41595471904926",
+	  "bin_175": "0.410619170443405",
+	  "bin_176": "0.407942741679093",
+	  "bin_177": "0.411936085219707",
+	  "bin_178": "0.410599201065246",
+	  "bin_179": "0.399936085219707",
+	  "bin_180": "0.391946737683089",
+	  "bin_181": "0.386631158455393",
+	  "bin_182": "0.379978695073236",
+	  "bin_183": "0.371989347536618",
+	  "bin_184": "0.374663115845539",
+	  "bin_185": "0.376",
+	  "bin_186": "0.372",
+	  "bin_187": "0.364",
+	  "bin_188": "0.364",
+	  "bin_189": "0.36",
+	  "bin_190": "0.352",
+	  "bin_191": "0.352",
+	  "bin_192": "0.36",
+	  "bin_193": "0.36",
+	  "bin_194": "0.357333333333333",
+	  "bin_195": "0.346666666666667",
+	  "bin_196": "0.316888888888889",
+	  "bin_197": "0.240888888888889",
+	  "bin_198": "0.165925925925926",
+	  "bin_199": "0"
+	}
+  },
+  {
+	"attributes": {
+	  "variableName": "binned_200_1971ForestOtherBuilt1_Class_3distance",
+	  "fileName": "binned_200_1971ForestOtherBuilt1_Class_3distance.rst",
+	  "sat_min": "0",
+	  "sat_max": "4857.4853515625",
+	  "binNo": "200",
+	  "bin_0": "0.5",
+	  "bin_1": "0.525819239993958",
+	  "bin_2": "0.537088066542778",
+	  "bin_3": "0.546176085979137",
+	  "bin_4": "0.543660965066943",
+	  "bin_5": "0.533469433292598",
+	  "bin_6": "0.514902631784248",
+	  "bin_7": "0.491762184713459",
+	  "bin_8": "0.464773373692293",
+	  "bin_9": "0.442653681299733",
+	  "bin_10": "0.425365765479924",
+	  "bin_11": "0.416263126405198",
+	  "bin_12": "0.415764311114701",
+	  "bin_13": "0.423435634640423",
+	  "bin_14": "0.431983934748802",
+	  "bin_15": "0.441422364214674",
+	  "bin_16": "0.447687028792484",
+	  "bin_17": "0.448860439297174",
+	  "bin_18": "0.445927678691964",
+	  "bin_19": "0.440740476573541",
+	  "bin_20": "0.433800004116835",
+	  "bin_21": "0.427438251092694",
+	  "bin_22": "0.420018269514924",
+	  "bin_23": "0.409770676109679",
+	  "bin_24": "0.401487342656863",
+	  "bin_25": "0.393454267853888",
+	  "bin_26": "0.386075897815743",
+	  "bin_27": "0.384616191166137",
+	  "bin_28": "0.390303387812816",
+	  "bin_29": "0.395253648452282",
+	  "bin_30": "0.401803197001966",
+	  "bin_31": "0.409332026709447",
+	  "bin_32": "0.41179353809402",
+	  "bin_33": "0.406591103312798",
+	  "bin_34": "0.397434478011549",
+	  "bin_35": "0.379607255058467",
+	  "bin_36": "0.348583629007202",
+	  "bin_37": "0.308674880856074",
+	  "bin_38": "0.264874103460054",
+	  "bin_39": "0.213723006324089",
+	  "bin_40": "0.16595660915089",
+	  "bin_41": "0.133376265804656",
+	  "bin_42": "0.11578057085436",
+	  "bin_43": "0.110506408454464",
+	  "bin_44": "0.128974277033174",
+	  "bin_45": "0.159988011988012",
+	  "bin_46": "0.191996003996004",
+	  "bin_47": "0.228",
+	  "bin_48": "0.272",
+	  "bin_49": "0.312",
+	  "bin_50": "0.352",
+	  "bin_51": "0.396",
+	  "bin_52": "0.436",
+	  "bin_53": "0.464",
+	  "bin_54": "0.484",
+	  "bin_55": "0.496",
+	  "bin_56": "0.5",
+	  "bin_57": "0.5",
+	  "bin_58": "0.5",
+	  "bin_59": "0.5",
+	  "bin_60": "0.5",
+	  "bin_61": "0.5",
+	  "bin_62": "0.5",
+	  "bin_63": "0.5",
+	  "bin_64": "0.5",
+	  "bin_65": "0.5",
+	  "bin_66": "0.5",
+	  "bin_67": "0.5",
+	  "bin_68": "0.5",
+	  "bin_69": "0.5",
+	  "bin_70": "0.5",
+	  "bin_71": "0.5",
+	  "bin_72": "0.5",
+	  "bin_73": "0.5",
+	  "bin_74": "0.5",
+	  "bin_75": "0.5",
+	  "bin_76": "0.5",
+	  "bin_77": "0.5",
+	  "bin_78": "0.5",
+	  "bin_79": "0.5",
+	  "bin_80": "0.5",
+	  "bin_81": "0.5",
+	  "bin_82": "0.5",
+	  "bin_83": "0.5",
+	  "bin_84": "0.5",
+	  "bin_85": "0.5",
+	  "bin_86": "0.5",
+	  "bin_87": "0.5",
+	  "bin_88": "0.5",
+	  "bin_89": "0.5",
+	  "bin_90": "0.5",
+	  "bin_91": "0.5",
+	  "bin_92": "0.5",
+	  "bin_93": "0.5",
+	  "bin_94": "0.5",
+	  "bin_95": "0.5",
+	  "bin_96": "0.5",
+	  "bin_97": "0.5",
+	  "bin_98": "0.5",
+	  "bin_99": "0.5",
+	  "bin_100": "0.5",
+	  "bin_101": "0.5",
+	  "bin_102": "0.5",
+	  "bin_103": "0.5",
+	  "bin_104": "0.5",
+	  "bin_105": "0.5",
+	  "bin_106": "0.5",
+	  "bin_107": "0.5",
+	  "bin_108": "0.5",
+	  "bin_109": "0.5",
+	  "bin_110": "0.5",
+	  "bin_111": "0.5",
+	  "bin_112": "0.5",
+	  "bin_113": "0.5",
+	  "bin_114": "0.5",
+	  "bin_115": "0.5",
+	  "bin_116": "0.5",
+	  "bin_117": "0.5",
+	  "bin_118": "0.5",
+	  "bin_119": "0.5",
+	  "bin_120": "0.5",
+	  "bin_121": "0.5",
+	  "bin_122": "0.5",
+	  "bin_123": "0.5",
+	  "bin_124": "0.5",
+	  "bin_125": "0.5",
+	  "bin_126": "0.5",
+	  "bin_127": "0.5",
+	  "bin_128": "0.5",
+	  "bin_129": "0.5",
+	  "bin_130": "0.5",
+	  "bin_131": "0.5",
+	  "bin_132": "0.5",
+	  "bin_133": "0.5",
+	  "bin_134": "0.5",
+	  "bin_135": "0.5",
+	  "bin_136": "0.5",
+	  "bin_137": "0.5",
+	  "bin_138": "0.5",
+	  "bin_139": "0.5",
+	  "bin_140": "0.5",
+	  "bin_141": "0.5",
+	  "bin_142": "0.5",
+	  "bin_143": "0.5",
+	  "bin_144": "0.5",
+	  "bin_145": "0.5",
+	  "bin_146": "0.5",
+	  "bin_147": "0.5",
+	  "bin_148": "0.5",
+	  "bin_149": "0.5",
+	  "bin_150": "0.5",
+	  "bin_151": "0.5",
+	  "bin_152": "0.5",
+	  "bin_153": "0.5",
+	  "bin_154": "0.5",
+	  "bin_155": "0.5",
+	  "bin_156": "0.5",
+	  "bin_157": "0.5",
+	  "bin_158": "0.5",
+	  "bin_159": "0.5",
+	  "bin_160": "0.5",
+	  "bin_161": "0.5",
+	  "bin_162": "0.5",
+	  "bin_163": "0.5",
+	  "bin_164": "0.5",
+	  "bin_165": "0.5",
+	  "bin_166": "0.5",
+	  "bin_167": "0.5",
+	  "bin_168": "0.5",
+	  "bin_169": "0.5",
+	  "bin_170": "0.5",
+	  "bin_171": "0.5",
+	  "bin_172": "0.5",
+	  "bin_173": "0.5",
+	  "bin_174": "0.5",
+	  "bin_175": "0.5",
+	  "bin_176": "0.5",
+	  "bin_177": "0.5",
+	  "bin_178": "0.5",
+	  "bin_179": "0.5",
+	  "bin_180": "0.5",
+	  "bin_181": "0.5",
+	  "bin_182": "0.5",
+	  "bin_183": "0.5",
+	  "bin_184": "0.5",
+	  "bin_185": "0.5",
+	  "bin_186": "0.5",
+	  "bin_187": "0.5",
+	  "bin_188": "0.5",
+	  "bin_189": "0.5",
+	  "bin_190": "0.5",
+	  "bin_191": "0.5",
+	  "bin_192": "0.5",
+	  "bin_193": "0.5",
+	  "bin_194": "0.5",
+	  "bin_195": "0.5",
+	  "bin_196": "0.5",
+	  "bin_197": "0.5",
+	  "bin_198": "0.5",
+	  "bin_199": "0.5"
+	}
+  }
+  ]
+}

@@ -1,0 +1,76 @@
+Logistic Regression Results:
+
+      Regression Equation : 
+
+        logit(assign5_Train_Non-B_to_Built) = -3.2791 + 0.009372*elevation02 - 0.001150*1971ForestOtherBuilt1_Class_3distance
+
+      Individual Regression Coefficient
+--------------------------------------------------
+Variables                  |      Coefficient     
+--------------------------------------------------
+Intercept                  |      -3.27910862
+elevation02                |      0.00937215
+1971ForestOtherBuilt1_Cla  |      -0.00115048
+--------------------------------------------------
+
+      Regression Statistics : 
+
+      Number of total observations        = 83933   
+      Number of 0s in study area          = 80911   
+      Number of 1s in study area          = 3022    
+      Percentage of 0s in study area      = 96.3995 
+      Percentage of 1s in study area      = 3.6005  
+
+      Number of auto-sampled observations = 83933   
+      Number of 0s in sampled area        = 80911   
+      Number of 1s in sampled area        = 3022    
+      Percentage of 0s in sampled area    = 96.3995 
+      Percentage of 1s in sampled area    = 3.6005  
+
+      -2logL0                              = 26024.7237
+      -2log(likelihood)                    = 25830.1606
+      Pseudo R_square                      = 0.0075  
+      Goodness of Fit                      = 83352.4123
+      ChiSquare( 2)              = 194.5631
+
+
+      Means and Standard Deviations
+------------------------------------------------------------
+                         Mean          Standard Deviation  
+------------------------------------------------------------
+elevation02              26.634756          11.593406
+1971ForestOtherBuilt1_Cla253.806854          224.973677
+assign5_Train_Non-B_to_Bu0.036005          0.186303
+------------------------------------------------------------
+
+
+      Classification of cases & odds ratio
+----------------------------------------------------------------
+  Observed  |     Fitted_0   |    Fitted_1   |  Percent Correct 
+----------------------------------------------------------------
+     0      |     80911              0            100.0000
+     1      |      3022              0              0.0000
+----------------------------------------------------------------
+      Odds Ratio     = not applicable 
+
+      Reclassification of cases & ROC (Sample-based computation when applicable):
+
+(1) Select a new threshold value such that, after reclassification,  the number
+    of fitted 1s matches the number of observed 1s in the dependent variable
+
+      New cutting threshold =   0.0510
+
+ Classification of cases & odds ratio by using the new threshold
+-------------------------------------------------------------------
+  Observed  |     Fitted_0   |    Fitted_1   |  Percent Correct 
+-------------------------------------------------------------------
+     0      |     77964           2947             96.3577
+     1      |      2932             90              2.9782
+-------------------------------------------------------------------
+   Adjusted Odds Ratio =   0.8121
+         True Positive =  81.0811%
+        False Positive =   3.6423%
+
+(2) ROC* Result with 100 thresholds (Sample-based computation when applicable):
+         ROC =   0.5736
+ * ROC=1 indicates a perfect fit; and ROC=0.5 indicates a random fit.

@@ -1,0 +1,31 @@
+file format : IDRISI Raster A.1
+file title  : Training file for classes 1-2
+data type   : byte
+file type   : binary
+columns     : 512
+rows        : 512
+ref. system : spc83ma1
+ref. units  : m
+unit dist.  : 1.0000000
+min. X      : 242160.0000000
+max. X      : 257520.0000000
+min. Y      : 923060.0000000
+max. Y      : 938420.0000000
+pos'n error : unknown
+resolution  : unknown
+min. value  : 0
+max. value  : 1
+display min : 0
+display max : 1
+value units : unspecified
+value error : unknown
+flag value  : none
+flag def'n  : none
+legend cats : 0
+lineage     : This file was created by the RECLASS module with the command line: 
+lineage     : I*C:\Users\maris\Documents\GitHub\Land-Change-Modeling\Assignments\Assignment 5 - LCM Part 2\idrtmp_lulc_Bool_transition_Sub-Model_Non-B_to_Built.rst*C:\Users\maris\Documents\GitHub\Land-Change-Modeling\Assignments\Assignment 5 - LCM Part 2\assign5_Train_Non-B_to_Built.rst*3*C:\Users\maris\Documents\GitHub\Land-Change-Modeling\Assignments\Assignment 5 - LCM Part 2\idrtmp_lulc_tmp.rcl*2
+lineage     : File C:\Users\maris\Documents\GitHub\Land-Change-Modeling\Assignments\Assignment 5 - LCM Part 2\idrtmp_lulc_tmp.rcl contains the following:
+lineage     :     0 2 999999
+lineage     :     -9999
+lineage     : This file was created by the CONVERT module with the command line: 
+lineage     : C:\Users\maris\Documents\GitHub\Land-Change-Modeling\Assignments\Assignment 5 - LCM Part 2\assign5_Train_Non-B_to_Built.rst*C:\Users\maris\Documents\GitHub\Land-Change-Modeling\Assignments\Assignment 5 - LCM Part 2\assign5_Train_Non-B_to_Built.rst*I*3*2*2
