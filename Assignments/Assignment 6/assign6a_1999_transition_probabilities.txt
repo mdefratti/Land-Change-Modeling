@@ -1,0 +1,16 @@
+Given :    Probability of changing to :
+
+           Cl. 1  Cl. 2  Cl. 3 
+
+Class 1  : 0.9520 0.0074 0.0406 
+Class 2  : 0.0000 0.9727 0.0273 
+Class 3  : 0.0000 0.0000 1.0000 
+
+
+First landcover image  : 1971ForestOtherBuilt1
+Second landcover image : 1985ForestOtherBuilt1
+Output prefix          : assign6a_1999_
+Time interval 1        : 14
+Time interval 2        : 14
+Background cell option : 1
+Proportional error     : 0.0

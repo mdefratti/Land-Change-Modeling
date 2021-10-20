@@ -1,0 +1,69 @@
+file format : IDRISI Raster A.1
+file title  : 1999 Land Use
+data type   : byte
+file type   : binary
+columns     : 512
+rows        : 512
+ref. system : spc83ma1
+ref. units  : m
+unit dist.  : 1.0000000
+min. X      : 242160.0000000
+max. X      : 257520.0000000
+min. Y      : 923060.0000000
+max. Y      : 938420.0000000
+pos'n error : unknown
+resolution  : 30
+min. value  : 0
+max. value  : 21
+display min : 0
+display max : 21
+value units : unspecified
+value error : unknown
+flag value  : 0
+flag def'n  : background
+legend cats : 21
+code      1 : Cropland
+code      2 : Pasture
+code      3 : Forest
+code      4 : Wetland
+code      5 : Mining
+code      6 : Open Land
+code      7 : Participation Recreation
+code      8 : Spectator Recreation
+code      9 : Water Based Recreation
+code     10 : Residential (Multi-Family)
+code     11 : Residential (<1/4 Acre)
+code     12 : Residential (1/4 - 1/2 Acre)
+code     13 : Residential (>1/2 Acre)
+code     14 : Salt Wetland
+code     15 : Commercial
+code     16 : Industrial
+code     17 : Urban Open
+code     18 : Transportation
+code     19 : Waste Disposal
+code     20 : Water
+code     21 : Woody Perennial
+lineage     : This file was created by the OVERLAY module with the command line:
+lineage     : 3*C:\Users\rpontius\Gil\clark\advise\EmilyEvenden\GIS_p_landuse7\win1GIS-p_landuse21_1999_02.rst*C:\Users\rpontius\Gil\clark\advise\EmilyEvenden\GIS_p_landuse7\mask01.rst*C:\Users\rpontius\Gil\clark\advise\EmilyEvenden\GIS_p_landuse7\1999landuse21cats01.rst
+comment     : To see the definitions of MassGIS 21 categories, visit http://www.gismanual.com/lookup/Land%20Use_1951_1999_Metadata.pdf
+comment     : CODE DEFINITION
+comment     : 1 Cropland = Intensive agriculture
+comment     : 2 Pasture = Extensive agriculture
+comment     : 3 Forest = Forest
+comment     : 4 Wetland = Nonforested freshwater wetland
+comment     : 5 Mining = Sand; gravel & rock
+comment     : 6 Open Land = Abandoned agriculture; power lines; areas of no vegetation
+comment     : 7 Participation Recreation = Golf; tennis; Playgrounds; skiing
+comment     : 8 Spectator Recreation = Stadiums; racetracks; Fairgrounds; drive-ins
+comment     : 9 Water BasedRecreation = Beaches; marinas; Swimming pools
+comment     : 10 Residential Multi-family
+comment     : 11 Residential Smaller than 1/4 acre lots
+comment     : 12 Residential1/4 - 1/2 acre lots
+comment     : 13 Residential Larger than 1/2 acre lots
+comment     : 14 Salt Wetland = Salt marsh
+comment     : 15 Commercial = General urban; shopping center16UIIndustrialLight & heavy industry
+comment     : 17 Urban Open = Parks; cemeteries; public & institutional greenspace; also vacantundeveloped land
+comment     : 18 Transportation = Airports; docks; divided highway; freight; storage; railroads
+comment     : 19 Waste Disposa = lLandfills; sewage lagoons
+comment     : 20 Water = Fresh water; coastal embayment
+comment     : 21 Woody Perennial = Orchard; nursery; cranberry bog

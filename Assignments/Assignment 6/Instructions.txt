@@ -1,0 +1,185 @@
+Assignment 6
+-Decide among various fitting algorithms
+-Simulating more than one gaining category
+
+Land Change Modeler
+Earlier time: 1971ForestOtherBuilt
+Later time: 1985ForestOtherBuilt
+Group all transitions into 1 sub-model
+Independent variable: Distance to 1971 Built
+
+Markov Matrix Change Allocation: 1971-1985 -> 1999
+
+3 Way Crosstab:
+1985ForestOtherBuilt1
+1999 Prediction
+1999ForestOtherBuilt
+*Mask01
+
+Enhance legend of 3-way crosstab to denote each output category as Miss, False Alarm, Hit, Correct Rejection, Wrong Hit & Unpredicted, Miss & Unpredicted, Built Persistence
+*Unpredicted is a transition that exists in the reference change during 1985-1999 butthat LCM did not try to predict
+
+Slide1
+-Title
+
+Slide2 (Transition Potential from 1 Forest to 2 Other)
+-(Left) SVM Results
+-(Right) DecisionForest
+*2 REGRESS plots and 2 transition potential maps
+
+Slide3 (Transition Potential from 1 Forest to 3 Built)
+-(Left) SVM Results
+-(Right) DecisionForest
+*2 REGRESS plots and 2 transition potential maps
+
+Slide4 (Transition Potential from 2 Other to 3 Built)
+-(Left) SVM Results
+-(Right) DecisionForest
+*2 REGRESS plots and 2 transition potential maps
+
+Slide5
+-Validation maps from CROSSTAB
+-#Pixels: Hits, simulated change, reference change 1985-1999
+-#Pixels: Reference change 1971-1985
+-Explain why the three sizes differ:
+	1. Reference change during 1971-1985
+	2. Simulated change during 1985-1999
+	3. Reference change during 1985-1999
+
+Slide6
+
+
+
+CROSSTAB
+1|1|1 Correct Rejection
+2|2|2 Correct Rejection
+3|3|3 Correct Rejection
+--> Because the system correctly rejected any change in those pixels
+
+
+
+We have transitions in the second period (validation) that don't exist in the 1st time period (calibration). Therefore, the LCM can't predict things that it hadn't seen in the input data.
+Stationary vs. Nonstationary Landscape
+
+*Don't judge by validation metrics of the software, because they could be influenced by the behaviour of the data.
+	-Could compare it to other models & their criteria
+	-1 Minute Model: the prediction that you would make if you think for at most 1 minute
+	-Evaluate a software/model based on understandability
+		-Criteria of 'worthwhileness'
+
+Both algorithsm trained on same time interval for comparison
+More categories = more transitions
+LCM uses recent trends logic in the Markov Matrix
+	Spatial allocation
+
+Suitability map - independent variable (distance)
+*Distance from 1971 Built
+
+Logistic Regression:
+X (Distance to Built at 1971)
+Y: Transition Potential; 0 to 1
+*Horizontal asymptote approaches 0 or 1
+
+SVM = Support Vector Machine
+
+DecisionForest
+
+tmp000 shows transitions between all categories
+Forest>Other
+Forest>Built
+Other>Built
+
+Built & Other Experience Gain
+Forest never experience Gain
+-->Suitability map for when Built gains
+-->Suitability map for when Other Gains
+*One suitability map for gain of built b/c builders only care about distance, not if the land is currently forest or other (assumption)
+
+Transition Sub-Models: Status
+*Not click Group All?
+
+Transition SubModels
+-SVM
+-Logistic Regression
+	*Don't Apply Sampling (it will be too slow)
+*Recent Trends Scenario is not a prediction! It's recent trends.
+
+Don't modify MM
+>Run
+>1999 prediction
+
+CROSSTAB compares...
+Calibration, 1971-1985
+Validation. 1985-1999
+Extrapolated Guess - 1999
+...compares
+	If Calibration = Validation pattern of change...then the pattern is stationary (same) during the extrapolation
+	If not equal, extrapolation quantity is not linear
+*CROSSTAB tells whether or not software is extrapolating in a stationary way
+
+If CROSSTAB compares:
+	3 reference maps
+	If all identical = stationary through time
+*tells if data are stationary
+
+If...
+	'85 ref + '99 ref + '99 change
+	Compares reference change to predicted change
+*measure predictie power of the model based on signal strength
+
+
+Criteron:
+Can you understand the software/algorithm?
+Can your audience understand it?
+'85ref+'99ref+'99pre (CROSSTAB) = judge based on how well software can predict patterns that it's never seen
+
+Wrong Hit: Model predicted change to an incorrect category
+Unpredicted: transition occured in 2nd time interval (validation), but not first (calibration)
+
+Transition Potential
+Forest>Other
+	Initial Time forest (positive values)
+	Initial Time Nonforest (0)
+^Same for Forest>Built
+
+Other>Built
+	Other Initial Time
+
+-------------------
+Regress
+-Horizontal axis: distance to built
+-Vertical: transition potential
+
+Forest>Built
+	-Decreasing relationship
+Forest>Other
+
+Regress compares the different kinds of outputs between the algorithms
+
+-----------------------------------------------------
+SVM = takes a sample of the data, & b/c each sample is different, then the output could be slightly different each time. You'd really need several runs to interpret the results.
+
+Makes 3 transition potential maps
+TP Map + MM => Project landcover for 1999
+
+CROSSTAB
+1985ref + assign6a8 (simulation) + ref99
+
+----------
+COMPARE OUTPUT BETWEEN SVM & DECISIONTREE, NOT LOGISTIC
+Logistic is really smooth
+SVM has more detail
+..Might not need more detail
+..Can you have too much detail?
+*? How would the target audience understand it?
+"People tend to built near each other" <-- to tell reporters
+
+Color of regress line shows density
+
+Regress line bumps: that's just where builders built for whatever reasons;
+The farther away from built, builders are less likely to build
+
+Machine Learning algorithms - latch onto and amplify any signal in the data
+
+
+MM = Quantity of change

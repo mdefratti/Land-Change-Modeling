@@ -1,0 +1,63 @@
+file format : IDRISI Raster A.1
+file title  : Projected Land Cover
+data type   : byte
+file type   : binary
+columns     : 512
+rows        : 512
+ref. system : spc83ma1
+ref. units  : m
+unit dist.  : 1.0000000
+min. X      : 242160.0000000
+max. X      : 257520.0000000
+min. Y      : 923060.0000000
+max. Y      : 938420.0000000
+pos'n error : unknown
+resolution  : 30.0000000
+min. value  : 0
+max. value  : 3
+display min : 0
+display max : 3
+value units : classes
+value error : unknown
+flag value  : 0
+flag def'n  : background
+legend cats : 3
+code      1 : Forest
+code      2 : Other
+code      3 : Built
+lineage     : This file was created by the RECLASS module with the command line:
+lineage     : I*C:\Users\rpontius\Gil\clark\advise\EmilyEvenden\GIS_p_landuse7\1985landuse21cats01.rst*C:\Users\rpontius\Gil\clark\advise\EmilyEvenden\GIS_p_landuse7\1985ForestOtherBuilt1.rst*3*C:\Users\rpontius\Gil\clark\advise\EmilyEvenden\GIS_p_landuse7\idrtemp.rcl*1
+lineage     : File C:\Users\rpontius\Gil\clark\advise\EmilyEvenden\GIS_p_landuse7\idrtemp.rcl contains the following:
+lineage     : 2 1 3
+lineage     : 1 3 4
+lineage     : 2 4 10
+lineage     : 3 10 14
+lineage     : 2 14 15
+lineage     : 3 15 17
+lineage     : 2 17 18
+lineage     : 3 18 19
+lineage     : 2 19 22
+lineage     : -9999
+lineage     : 
+lineage     : To see the definitions of MassGIS 21 categories, visit http://www.gismanual.com/lookup/Land%20Use_1951_1999_Metadata.pdf
+lineage     : CODE DEFINITION
+lineage     : 1 Cropland = Intensive agriculture
+lineage     : 2 Pasture = Extensive agriculture
+lineage     : 3 Forest = Forest
+lineage     : 4 Wetland = Nonforested freshwater wetland
+lineage     : 5 Mining = Sand; gravel & rock
+lineage     : 6 Open Land = Abandoned agriculture; power lines; areas of no vegetation
+lineage     : 7 Participation Recreation = Golf; tennis; Playgrounds; skiing
+lineage     : 8 Spectator Recreation = Stadiums; racetracks; Fairgrounds; drive-ins
+lineage     : 9 Water BasedRecreation = Beaches; marinas; Swimming pools
+lineage     : 10 Residential Multi-family
+lineage     : 11 Residential Smaller than 1/4 acre lots
+lineage     : 12 Residential1/4 - 1/2 acre lots
+lineage     : 13 Residential Larger than 1/2 acre lots
+lineage     : 14 Salt Wetland = Salt marsh
+lineage     : 15 Commercial = General urban; shopping center16UIIndustrialLight & heavy industry
+lineage     : 17 Urban Open = Parks; cemeteries; public & institutional greenspace; also vacantundeveloped land
+lineage     : 18 Transportation = Airports; docks; divided highway; freight; storage; railroads
+lineage     : 19 Waste Disposa = lLandfills; sewage lagoons
+lineage     : 20 Water = Fresh water; coastal embayment
+lineage     : 21 Woody Perennial = Orchard; nursery; cranberry bog

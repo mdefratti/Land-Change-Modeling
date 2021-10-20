@@ -1,0 +1,35 @@
+file format : IDRISI Raster A.1
+file title  : Cross-Classification : 1971ForestOtherBuilt1 | 1985ForestOtherBuilt1
+data type   : integer
+file type   : binary
+columns     : 512
+rows        : 512
+ref. system : spc83ma1
+ref. units  : m
+unit dist.  : 1.0000000
+min. X      : 242160.0000000
+max. X      : 257520.0000000
+min. Y      : 923060.0000000
+max. Y      : 938420.0000000
+pos'n error : unknown
+resolution  : 30.0000000
+min. value  : 1
+max. value  : 9
+display min : 0
+display max : 9
+value units : crossclassification categories
+value error : unknown
+flag value  : 0
+flag def'n  : background
+legend cats : 9
+code      1 :  1 |  1
+code      2 :  2 |  1
+code      3 :  3 |  1
+code      4 :  1 |  2
+code      5 :  2 |  2
+code      6 :  3 |  2
+code      7 :  1 |  3
+code      8 :  2 |  3
+code      9 :  3 |  3
+lineage     : This file was created by CROSSTAB with the command line: 
+lineage     : 1*C:\Users\maris\Documents\GitHub\Land-Change-Modeling\Assignments\Assignment 6\ForestOtherBuilt2\1971ForestOtherBuilt1.rst*C:\Users\maris\Documents\GitHub\Land-Change-Modeling\Assignments\Assignment 6\ForestOtherBuilt2\1985ForestOtherBuilt1.rst*NONE*NONE*10*C:\Users\maris\Documents\GitHub\Land-Change-Modeling\Assignments\Assignment 6\assign6a_crosstab.rst*N

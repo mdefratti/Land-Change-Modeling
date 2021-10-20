@@ -1,0 +1,256 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>SVM model and performance</title>
+<style type="text/css">
+BODY { margin: 5em }
+table,th,td
+{
+border:1px solid gray;
+border-collapse:collapse;
+padding: 0.25em 1em;
+text-align:right;
+}
+tr.fitTable
+{
+border: 1px solid gray;
+text-align:center;
+vertical-align:middle;
+}
+td.fitWide{width:100px;}
+.clsCaption {width:310px; text-align:left;}
+.clsStat {width:120px; text-align: left;}
+.Center{text-align: center;}
+.left{text-align: left;}
+.no_borders {border: none}
+</style>
+</head>
+<body>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<h2>SVM Model Results</h2>
+<p>(Created: 10/17/2021 8:16:04 PM)</p>
+</head>
+<br>
+<body>
+<i><b>1) Input Files</b></i>
+<br>
+<table border="1">
+<SCRIPT LANGUAGE = "JavaScript">
+  document.write("<tr>")
+  document.write("<td>Land cover 1</td>")
+  document.write("<td>1971ForestOtherBuilt1</td>")
+  document.write("</tr>")
+  document.write("<tr>")
+  document.write("<td>Land cover 2</td>")
+  document.write("<td>1985ForestOtherBuilt1</td>")
+  document.write("</tr>")
+  document.write("<tr>")
+  document.write("<td>Independent variable 1</td>")
+  document.write("<td>1971ForestOtherBuilt1_Class_3distance</td>")
+  document.write("</tr>")
+</SCRIPT>
+</table>
+<br>
+<i><b>2) Overall Parameters and Accuracy </b></i>
+<br>
+<table border="1">
+<SCRIPT LANGUAGE = "JavaScript">
+  document.write("<tr>")
+  document.write("<td>Training parameter mode</td>")
+  document.write("<td>Grid searching</td>")
+  document.write("</tr>")
+  document.write("<tr>")
+  document.write("<td>Kernel type</td>")
+  document.write("<td>Radial Basis Function</td>")
+  document.write("</tr>")
+  document.write("<tr>")
+  document.write("<td>Coef0</td>")
+  document.write("<td>NONE</td>")
+  document.write("</tr>")
+  document.write("<tr>")
+  document.write("<td>Degree</td>")
+  document.write("<td>NONE</td>")
+  document.write("</tr>")
+  document.write("<tr>")
+  document.write("<td>Epsilon</td>")
+  document.write("<td>  0.0100</td>")
+  document.write("</tr>")
+  document.write("<tr>")
+  document.write("<td>Class number</td>")
+  document.write("<td>5</td>")
+  document.write("</tr>")
+  document.write("<tr>")
+  document.write("<td>Total SV number</td>")
+  document.write("<td>869</td>")
+  document.write("</tr>")
+  document.write("<tr>")
+  document.write("<td>Total Sample number</td>")
+  document.write("<td>1020</td>")
+  document.write("</tr>")
+  document.write("<tr>")
+  document.write("<td>Overall CV accuracy</td>")
+  document.write("<td>  0.5461</td>")
+  document.write("</tr>")
+  document.write("<tr>")
+  document.write("<td>Overall Out-of-sample accuracy</td>")
+  document.write("<td>  0.4502</td>")
+  document.write("</tr>")
+  document.write("<tr>")
+  document.write("<td>Overall skill measure</td>")
+  document.write("<td>  0.0957</td>")
+  document.write("</tr>")
+  document.write("<tr>")
+  document.write("<td>Training time (seconds)</td>")
+  document.write("<td>  8.9870</td>")
+  document.write("</tr>")
+</SCRIPT>
+</table>
+<br>
+<br>
+<i><b>3) Model Parameter and Accuracy Breakdown by Class</b></i>
+<br>
+<table border="1">
+<SCRIPT LANGUAGE = "JavaScript">
+  document.write("<tr>")
+  document.write("<td>Class</td>")
+  document.write("<td>SV number</td>")
+  document.write("<td>Sample number</td>")
+  document.write("<td>CV accuracy</td>")
+  document.write("<td>Out-of-sample accuracy</td>")
+  document.write("<td>Skill measure</td>")
+  document.write("<tr>")
+  document.write("<tr>")
+  document.write("<td>Transition: Forest to Other</td>")
+  document.write("<td>174</td>")
+  document.write("<td>204</td>")
+  document.write("<td>  0.4069</td>")
+  document.write("<td>  0.0068</td>")
+  document.write("<td> -0.4898</td>")
+  document.write("<tr>")
+  document.write("<tr>")
+  document.write("<td>Transition: Forest to Built</td>")
+  document.write("<td>197</td>")
+  document.write("<td>204</td>")
+  document.write("<td>  0.5882</td>")
+  document.write("<td>  0.7316</td>")
+  document.write("<td>  0.5974</td>")
+  document.write("<tr>")
+  document.write("<tr>")
+  document.write("<td>Transition: Other to Built</td>")
+  document.write("<td>149</td>")
+  document.write("<td>204</td>")
+  document.write("<td>  0.8382</td>")
+  document.write("<td>  0.7284</td>")
+  document.write("<td>  0.4568</td>")
+  document.write("<tr>")
+  document.write("<tr>")
+  document.write("<td>Persistence: Forest</td>")
+  document.write("<td>200</td>")
+  document.write("<td>204</td>")
+  document.write("<td>  0.4118</td>")
+  document.write("<td>  0.3088</td>")
+  document.write("<td> -0.0368</td>")
+  document.write("<tr>")
+  document.write("<tr>")
+  document.write("<td>Persistence: Other</td>")
+  document.write("<td>149</td>")
+  document.write("<td>204</td>")
+  document.write("<td>  0.4853</td>")
+  document.write("<td>  0.4755</td>")
+  document.write("<td> -0.0490</td>")
+  document.write("<tr>")
+</SCRIPT>
+</table>
+<br>
+<br>
+<i><b>4) Model Parameter and Accuracy Breakdown by Modeling Stage</b></i>
+<br>
+<br /> 
+<b><font size="3">Stage: 1</font size></b>
+<br>
+<table border="1">
+<SCRIPT LANGUAGE = "JavaScript">
+  document.write("<tr>")
+  document.write("<td>Categories</td>")
+  document.write("<td>3</td>")
+  document.write("</tr>")
+  document.write("<tr>")
+  document.write("<td>Persistence class</td>")
+  document.write("<td>Forest</td>")
+  document.write("</tr>")
+  document.write("<tr>")
+  document.write("<td>Transition class 1</td>")
+  document.write("<td>Forest to Other</td>")
+  document.write("</tr>")
+  document.write("<tr>")
+  document.write("<td>Transition class 2</td>")
+  document.write("<td>Forest to Built</td>")
+  document.write("</tr>")
+  document.write("<tr>")
+  document.write("<td>Penalty parameter C</td>")
+  document.write("<td>8192.0000</td>")
+  document.write("</tr>")
+  document.write("<tr>")
+  document.write("<td>Gamma</td>")
+  document.write("<td>  8.0000</td>")
+  document.write("</tr>")
+  document.write("<tr>")
+  document.write("<td>CV accuracy</td>")
+  document.write("<td>  0.4690</td>")
+  document.write("</tr>")
+  document.write("<tr>")
+  document.write("<td>Out-of-sample accuracy</td>")
+  document.write("<td>  0.3491</td>")
+  document.write("</tr>")
+  document.write("<tr>")
+  document.write("<td>Skill measure</td>")
+  document.write("<td>  0.0236</td>")
+  document.write("</tr>")
+</SCRIPT>
+</table>
+<br /> 
+<b><font size="3">Stage: 2</font size></b>
+<br>
+<table border="1">
+<SCRIPT LANGUAGE = "JavaScript">
+  document.write("<tr>")
+  document.write("<td>Categories</td>")
+  document.write("<td>2</td>")
+  document.write("</tr>")
+  document.write("<tr>")
+  document.write("<td>Persistence class</td>")
+  document.write("<td>Other</td>")
+  document.write("</tr>")
+  document.write("<tr>")
+  document.write("<td>Transition class</td>")
+  document.write("<td>Other to Built</td>")
+  document.write("</tr>")
+  document.write("<tr>")
+  document.write("<td>Penalty parameter C</td>")
+  document.write("<td>128.0000</td>")
+  document.write("</tr>")
+  document.write("<tr>")
+  document.write("<td>Gamma</td>")
+  document.write("<td>  0.1250</td>")
+  document.write("</tr>")
+  document.write("<tr>")
+  document.write("<td>CV accuracy</td>")
+  document.write("<td>  0.6618</td>")
+  document.write("</tr>")
+  document.write("<tr>")
+  document.write("<td>Out-of-sample accuracy</td>")
+  document.write("<td>  0.6019</td>")
+  document.write("</tr>")
+  document.write("<tr>")
+  document.write("<td>Skill measure</td>")
+  document.write("<td>  0.2039</td>")
+  document.write("</tr>")
+</SCRIPT>
+</table>
+<br>
+</body>
+</html>
